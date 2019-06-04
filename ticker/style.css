@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.ticker {
+    margin-top: 30px;
+    overflow-x: hidden;
+    position: relative;
+    height: 50px;
+    border-bottom: 1px dashed #000;
+}
+
+.headline {
+    white-space: nowrap;
+    left: 100%;
+    position: absolute;
+}
+
+.headline a {
+    padding-right: 40px;
+    color: #8b008b;
+    text-decoration: none;
+}
